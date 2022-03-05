@@ -1,0 +1,5 @@
+setup.py
+owlshell/OwlShell.egg-info/PKG-INFO
+owlshell/OwlShell.egg-info/SOURCES.txt
+owlshell/OwlShell.egg-info/dependency_links.txt
+owlshell/OwlShell.egg-info/top_level.txt
