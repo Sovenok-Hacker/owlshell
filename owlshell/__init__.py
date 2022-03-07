@@ -16,9 +16,9 @@ def notify(header='Python App', text='Hello, Sovenok-Hacker!', time=1, icon=None
     else:
         try:
             if icon == None:
-                shell(f'notify-send {header} {text} --expire-time={time * 1000}')
+                shell(f'notify-send "{header}" "{text}" --expire-time={time * 1000}')
             else:
-                shell(f'notify-send {header} {text} --expire-time={time * 1000} --icon {icon}')
+                shell(f'notify-send "{header}" "{text}" --expire-time={time * 1000} --icon "{icon}"')
         except:
             raise OSError('cannot send notification')
 def owl():
